@@ -41,6 +41,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-stream-kafka</artifactId>
+            <version>1.0.3.RELEASE</version>
         </dependency>
 
         <dependency>

@@ -48,14 +48,10 @@ public class Shp2CsvProcessor {
     private static Logger LOG = LoggerFactory.getLogger(Shp2CsvProcessor.class);
     private static final String NAME = "Shp2CsvProcessor";
     
-    @Autowired
-    @Bindings(Shp2CsvProcessor.class)
-    private Processor channels;
- 
     private MessageChannel output;
  
     @Autowired
-    public void SendingBean(MessageChannel output) {
+    public void Shp2CsvProcessor(MessageChannel output) {
         this.output = output;
     }
     
